@@ -5,7 +5,7 @@ from zklib import zklib,zkconst
 import time
  
 
-zk = zklib.ZKLib("192.168.1.201", 4370)
+zk = zklib.ZKLib("192.168.0.21", 4370)
 
 ret = zk.connect()
 print "connection:", ret

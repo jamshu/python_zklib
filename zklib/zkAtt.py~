@@ -199,7 +199,7 @@ def zkAtt(self):
             int(reverseHex(timestamp.encode('hex')), 16))))
         attendancedata = attendancedata[40:]
 
-        while len(attendancedata):
+            while len(attendancedata):
 
                 pls = unpack('c', attendancedata[29:30])  # [3]
 
